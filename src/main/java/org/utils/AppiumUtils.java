@@ -33,7 +33,6 @@ public abstract class AppiumUtils {
 	}
 	
 	public List<HashMap<String, String>> getJsonData(String jsonFilePath) throws IOException {
-//System.getProperty("user.dir")+"//src//test//java//org//rahulshettyacademy//testData//eCommerce.json"
 		// conver json file content to json string
 		String jsonContent = FileUtils.readFileToString(new File(jsonFilePath),StandardCharsets.UTF_8);
 

@@ -15,13 +15,6 @@ public class eCommerce_tc_2 extends AndroidBaseTest {
 
 	@BeforeMethod
 	public void preSetup() {
-		// screen to home page
-//		Activity activity = new Activity("com.androidsample.generalstore",
-//				"com.androidsample.generalstore.MainActivity");
-//		driver.startActivity(activity);
-//		You can still use.
-
-//	Additional method to start particular activity.
 
 		((JavascriptExecutor) driver).executeScript("mobile: startActivity", ImmutableMap.of("intent",
 				"com.androidsample.generalstore/com.androidsample.generalstore.MainActivity"));
