@@ -54,7 +54,7 @@ public class AndroidBaseTest extends AppiumUtils {
 
 			// Initialize page objects
 //			formPage = new FormPage(driver);
-			restartApp();
+//			restartApp();
 
 		} catch (IOException e) {
 			System.err.println("Failed to load properties file: " + e.getMessage());
