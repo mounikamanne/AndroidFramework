@@ -42,3 +42,4 @@
 08:23:25.219 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
 08:23:25.219 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
 08:23:25.221 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/AppiumFrameworkDesign
+08:25:01.838 [Framework stop - Equinox Container: a4fa3fbc-97ad-4d72-82d7-daf97a217081] INFO  c.b.BrowserStackPluginActivator - Stopping BrowserStack Plugin...
